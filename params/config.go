@@ -380,7 +380,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		WorldlandBlock:        	       big.NewInt(0),
 		SeoulBlock:        	           big.NewInt(0),
-		AnnapurnaBlock:               big.NewInt(2_345_000),
+		AnnapurnaBlock:               big.NewInt(2_194_000),
 		HalvingEndTime:                big.NewInt(25228800),
 		Eccpow: 				       new(EccpowConfig),
 	}
