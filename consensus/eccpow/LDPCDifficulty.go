@@ -181,7 +181,7 @@ func MakeLDPCDifficultyCalculatorAnnapurna() func(time uint64, parent *types.Hea
 		//fmt.Printf("block_timestamp - parent_timestamp : %v\n", x)
 
 		x.Div(x, threshold)
-		//fmt.Printf("(block_timestamp - parent_timestamp) / 7 : %v\n", x)
+		//fmt.Printf("(block_timestamp - parent_timestamp) // 7 : %v\n", x)
 
 		if parent.UncleHash == types.EmptyUncleHash {
 			//fmt.Printf("No uncle\n")
@@ -190,9 +190,9 @@ func MakeLDPCDifficultyCalculatorAnnapurna() func(time uint64, parent *types.Hea
 			//fmt.Printf("Uncle block exists")
 			x.Sub(big2, x)
 		}
-		//fmt.Printf("(2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) / 7 : %v\n", x)
+		//fmt.Printf("(2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) // 7 : %v\n", x)
 
-		// max((2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) // 9, -99)
+		// max((2 if len(parent_uncles) else 1) - (block_timestamp - parent_timestamp) // 7, -99)
 		if x.Cmp(bigMinus99) < 0 {
 			x.Set(bigMinus99)
 		}
@@ -203,10 +203,10 @@ func MakeLDPCDifficultyCalculatorAnnapurna() func(time uint64, parent *types.Hea
 		//fmt.Printf("parent.Difficulty / 1024 : %v\n", y)
 
 		x.Mul(y, x)
-		//fmt.Printf("parent.Difficulty / 1024 * max(1 - (block_timestamp - parent_timestamp) / BlockGenerationTime, -99) : %v\n", x)
+		//fmt.Printf("parent.Difficulty / 1024 * max(1 - (block_timestamp - parent_timestamp) // 7, -99) : %v\n", x)
 
 		x.Add(parent.Difficulty, x)
-		//fmt.Printf("parent.Difficulty - parent.Difficulty / 8 * max(1 - (block_timestamp - parent_timestamp) / BlockGenerationTime, -99) : %v\n", x)
+		//fmt.Printf("parent.Difficulty - parent.Difficulty / 8 * max(1 - (block_timestamp - parent_timestamp) // 7, -99) : %v\n", x)
 
 		// minimum difficulty can ever be (before exponential factor)
 		if x.Cmp(SeoulDifficulty) < 0 {
