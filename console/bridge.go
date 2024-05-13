@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/scwallet"
-	"github.com/cryptoecc/ETH-ECC/accounts/usbwallet"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/internal/jsre"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/accounts/scwallet"
+	"github.com/cryptoecc/WorldLand/accounts/usbwallet"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/internal/jsre"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/dop251/goja"
 )
 

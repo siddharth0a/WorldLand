@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

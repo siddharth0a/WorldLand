@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/les/utils"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/les/utils"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

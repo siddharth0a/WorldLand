@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/bitutil"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
+	"github.com/cryptoecc/WorldLand/common/bitutil"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
 )
 
 const (

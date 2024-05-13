@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/cryptoecc/ETH-ECC/les/utils"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/les/utils"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

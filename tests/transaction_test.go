@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 func TestTransaction(t *testing.T) {

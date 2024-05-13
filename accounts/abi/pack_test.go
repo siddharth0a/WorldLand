@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

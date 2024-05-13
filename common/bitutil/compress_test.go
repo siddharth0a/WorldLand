@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

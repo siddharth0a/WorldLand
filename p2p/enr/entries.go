@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // Entry is implemented by known node record entry types.

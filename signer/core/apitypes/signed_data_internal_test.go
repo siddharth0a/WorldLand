@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

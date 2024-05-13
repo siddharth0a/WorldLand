@@ -22,7 +22,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/core/asm"
+	"github.com/cryptoecc/WorldLand/core/asm"
 	"github.com/urfave/cli/v2"
 )
 

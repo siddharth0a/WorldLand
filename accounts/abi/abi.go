@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 // The ABI holds information about a contract's context and available

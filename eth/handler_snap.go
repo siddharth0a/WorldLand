@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/snap"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/eth/protocols/snap"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

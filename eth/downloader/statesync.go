@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // syncState starts downloading state with the given root hash.

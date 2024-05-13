@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/eth/downloader"
-	"github.com/cryptoecc/ETH-ECC/eth/ethconfig"
-	"github.com/cryptoecc/ETH-ECC/ethclient"
-	"github.com/cryptoecc/ETH-ECC/ethstats"
-	"github.com/cryptoecc/ETH-ECC/internal/debug"
-	"github.com/cryptoecc/ETH-ECC/les"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/nat"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/eth/downloader"
+	"github.com/cryptoecc/WorldLand/eth/ethconfig"
+	"github.com/cryptoecc/WorldLand/ethclient"
+	"github.com/cryptoecc/WorldLand/ethstats"
+	"github.com/cryptoecc/WorldLand/internal/debug"
+	"github.com/cryptoecc/WorldLand/les"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/nat"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

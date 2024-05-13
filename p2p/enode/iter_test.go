@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/ethdb"
+	"github.com/cryptoecc/WorldLand/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

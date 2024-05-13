@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/cryptoecc/ETH-ECC/rlp/internal/rlpstruct"
+	"github.com/cryptoecc/WorldLand/rlp/internal/rlpstruct"
 )
 
 var (

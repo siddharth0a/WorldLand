@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 type (

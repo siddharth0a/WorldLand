@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

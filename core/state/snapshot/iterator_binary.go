@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

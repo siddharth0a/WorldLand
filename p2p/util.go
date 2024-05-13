@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

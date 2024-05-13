@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 var (

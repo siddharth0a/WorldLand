@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/nodestate"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

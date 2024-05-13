@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

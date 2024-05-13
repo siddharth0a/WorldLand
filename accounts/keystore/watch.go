@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/rjeczalik/notify"
 )
 

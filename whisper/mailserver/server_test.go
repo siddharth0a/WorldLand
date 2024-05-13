@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	whisper "github.com/cryptoecc/ETH-ECC/whisper/whisperv6"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
+	whisper "github.com/cryptoecc/WorldLand/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

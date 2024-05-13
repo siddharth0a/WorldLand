@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

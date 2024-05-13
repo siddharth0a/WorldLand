@@ -97,7 +97,7 @@ func Env() Environment {
 
 // LocalEnv returns build environment metadata gathered from git.
 func LocalEnv() Environment {
-	env := applyEnvFlags(Environment{Name: "local", Repo: "cryptoecc/ETH-ECC"})
+	env := applyEnvFlags(Environment{Name: "local", Repo: "cryptoecc/WorldLand"})
 	head := readGitFile("HEAD")
 
 	if fields := strings.Fields(head); len(fields) == 2 {

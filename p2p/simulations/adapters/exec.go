@@ -34,12 +34,12 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/rpc"
 	"github.com/gorilla/websocket"
 )
 

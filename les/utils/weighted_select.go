@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 type (

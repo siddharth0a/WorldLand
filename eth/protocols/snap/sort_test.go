@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 func hexToNibbles(s string) []byte {

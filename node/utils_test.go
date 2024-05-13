@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

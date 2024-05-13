@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

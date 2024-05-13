@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

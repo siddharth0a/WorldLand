@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/devp2p/internal/v5test"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/p2p/discover"
+	"github.com/cryptoecc/WorldLand/cmd/devp2p/internal/v5test"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/p2p/discover"
 	"github.com/urfave/cli/v2"
 )
 

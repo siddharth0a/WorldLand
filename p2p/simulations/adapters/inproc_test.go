@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/simulations/pipes"
+	"github.com/cryptoecc/WorldLand/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

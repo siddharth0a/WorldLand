@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/evm/internal/compiler"
+	"github.com/cryptoecc/WorldLand/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

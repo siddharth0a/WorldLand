@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // memoryNode is all the information we know about a single cached trie node

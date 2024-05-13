@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

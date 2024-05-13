@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

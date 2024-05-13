@@ -24,7 +24,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 type storedCredential struct {

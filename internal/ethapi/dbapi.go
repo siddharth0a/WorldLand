@@ -17,8 +17,8 @@
 package ethapi
 
 import (
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 // DbGet returns the raw value of a key stored in the database.

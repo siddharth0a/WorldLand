@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 	"github.com/holiman/uint256"
 )
 

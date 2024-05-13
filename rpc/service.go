@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 var (

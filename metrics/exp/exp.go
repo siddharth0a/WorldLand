@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/metrics"
-	"github.com/cryptoecc/ETH-ECC/metrics/prometheus"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/metrics"
+	"github.com/cryptoecc/WorldLand/metrics/prometheus"
 )
 
 type exp struct {

@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 type fuzzer struct {

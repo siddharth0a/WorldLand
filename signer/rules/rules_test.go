@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/signer/core"
-	"github.com/cryptoecc/ETH-ECC/signer/core/apitypes"
-	"github.com/cryptoecc/ETH-ECC/signer/storage"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/signer/core"
+	"github.com/cryptoecc/WorldLand/signer/core/apitypes"
+	"github.com/cryptoecc/WorldLand/signer/storage"
 )
 
 const JS = `

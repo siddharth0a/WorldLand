@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/eth"
-	"github.com/cryptoecc/ETH-ECC/eth/ethconfig"
-	"github.com/cryptoecc/ETH-ECC/internal/jsre"
-	"github.com/cryptoecc/ETH-ECC/miner"
-	"github.com/cryptoecc/ETH-ECC/node"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/eth"
+	"github.com/cryptoecc/WorldLand/eth/ethconfig"
+	"github.com/cryptoecc/WorldLand/internal/jsre"
+	"github.com/cryptoecc/WorldLand/miner"
+	"github.com/cryptoecc/WorldLand/node"
 )
 
 const (
