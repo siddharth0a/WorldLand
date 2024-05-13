@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // leaf represents a trie leaf node

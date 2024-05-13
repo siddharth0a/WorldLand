@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 	"github.com/holiman/uint256"
 )
 

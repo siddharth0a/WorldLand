@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

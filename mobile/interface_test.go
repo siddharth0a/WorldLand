@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

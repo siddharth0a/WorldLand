@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/internal/testlog"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/internal/testlog"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"

@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/eth/tracers/logger"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

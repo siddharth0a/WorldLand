@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/prque"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/prque"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

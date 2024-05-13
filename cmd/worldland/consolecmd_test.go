@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 const (

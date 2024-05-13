@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/eth/downloader"
-	"github.com/cryptoecc/ETH-ECC/eth/gasprice"
-	"github.com/cryptoecc/ETH-ECC/miner"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/eth/downloader"
+	"github.com/cryptoecc/WorldLand/eth/gasprice"
+	"github.com/cryptoecc/WorldLand/miner"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // MarshalTOML marshals as TOML.

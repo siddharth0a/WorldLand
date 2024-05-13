@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/core/forkid"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/les/downloader"
-	"github.com/cryptoecc/ETH-ECC/light"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/core/forkid"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/les/downloader"
+	"github.com/cryptoecc/WorldLand/light"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

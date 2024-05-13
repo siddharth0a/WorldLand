@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -27,7 +27,7 @@ import (
 	"golang.org/x/tools/go/packages"
 )
 
-const pathOfPackageRLP = "github.com/cryptoecc/ETH-ECC/rlp"
+const pathOfPackageRLP = "github.com/cryptoecc/WorldLand/rlp"
 
 func main() {
 	var (

@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // MarshalJSON marshals as JSON.

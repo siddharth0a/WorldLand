@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/p2p"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

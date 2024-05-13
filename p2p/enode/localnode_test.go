@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

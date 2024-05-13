@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/core/vm"
+	"github.com/cryptoecc/WorldLand/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/cryptoecc/ETH-ECC/accounts/abi"
+import "github.com/cryptoecc/WorldLand/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/cryptoecc/ETH-ECC"
-	"github.com/cryptoecc/ETH-ECC/accounts/abi"
-	"github.com/cryptoecc/ETH-ECC/accounts/abi/bind"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/event"
+	ethereum "github.com/cryptoecc/WorldLand"
+	"github.com/cryptoecc/WorldLand/accounts/abi"
+	"github.com/cryptoecc/WorldLand/accounts/abi/bind"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

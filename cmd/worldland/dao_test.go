@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

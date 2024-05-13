@@ -20,9 +20,9 @@ import (
 	"crypto/rand"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // largeNumber returns a very large big.Int.

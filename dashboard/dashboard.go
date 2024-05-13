@@ -35,10 +35,10 @@ import (
 
 	"io"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

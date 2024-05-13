@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p/netutil"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

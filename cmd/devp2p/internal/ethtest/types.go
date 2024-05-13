@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/rlpx"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/rlpx"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 type Message interface {

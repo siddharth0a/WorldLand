@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 const (

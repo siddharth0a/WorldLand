@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/event"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p/msgrate"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/event"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p/msgrate"
 )
 
 const (

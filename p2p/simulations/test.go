@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // NoopService is the service that does not do anything

@@ -24,13 +24,13 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

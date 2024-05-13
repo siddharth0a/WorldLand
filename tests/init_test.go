@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 var (

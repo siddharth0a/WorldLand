@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 	"github.com/urfave/cli/v2"
 )
 

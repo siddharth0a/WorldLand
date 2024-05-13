@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

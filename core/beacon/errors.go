@@ -17,8 +17,8 @@
 package beacon
 
 import (
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // EngineAPIError is a standardized error message between consensus and execution

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/tests/fuzzers/vflux"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/tests/fuzzers/vflux"
 )
 
 func main() {

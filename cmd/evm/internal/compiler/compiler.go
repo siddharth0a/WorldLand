@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/core/asm"
+	"github.com/cryptoecc/WorldLand/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

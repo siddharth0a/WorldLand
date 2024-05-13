@@ -26,7 +26,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
+	"github.com/cryptoecc/WorldLand/common/math"
 )
 
 type testEncoder struct {

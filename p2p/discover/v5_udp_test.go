@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/internal/testlog"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p/discover/v5wire"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/internal/testlog"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p/discover/v5wire"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

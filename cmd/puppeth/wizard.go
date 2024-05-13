@@ -29,10 +29,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/peterh/liner"
 	"golang.org/x/term"
 )

@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 func init() {

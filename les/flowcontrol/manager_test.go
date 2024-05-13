@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 type testNode struct {

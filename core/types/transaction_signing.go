@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

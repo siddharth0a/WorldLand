@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

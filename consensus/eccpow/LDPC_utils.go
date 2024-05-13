@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 //Parameters for matrix and seed

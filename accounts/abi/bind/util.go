@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	ethereum "github.com/cryptoecc/ETH-ECC"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/log"
+	ethereum "github.com/cryptoecc/WorldLand"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

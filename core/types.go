@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

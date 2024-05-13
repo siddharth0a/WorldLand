@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/math"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/light"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/math"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/light"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 type odrTestFn func(ctx context.Context, db ethdb.Database, config *params.ChainConfig, bc *core.BlockChain, lc *light.LightChain, bhash common.Hash) []byte

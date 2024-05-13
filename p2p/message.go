@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/event"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/event"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // Msg defines the structure of a p2p message.

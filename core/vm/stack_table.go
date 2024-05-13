@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 func minSwapStack(n int) int {

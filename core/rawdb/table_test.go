@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/ethdb"
+	"github.com/cryptoecc/WorldLand/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

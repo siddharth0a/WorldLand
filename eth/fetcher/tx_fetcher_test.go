@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 var (

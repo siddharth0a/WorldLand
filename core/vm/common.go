@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/math"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/math"
 	"github.com/holiman/uint256"
 )
 

@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 func TestKDF(t *testing.T) {

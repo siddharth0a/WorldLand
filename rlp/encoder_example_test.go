@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 type MyCoolType struct {

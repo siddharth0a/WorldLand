@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

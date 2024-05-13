@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/les/utils"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/les/utils"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 const (

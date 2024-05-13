@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

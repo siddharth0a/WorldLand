@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

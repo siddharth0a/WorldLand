@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

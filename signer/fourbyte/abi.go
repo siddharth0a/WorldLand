@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/abi"
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/accounts/abi"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

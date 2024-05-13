@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/cryptoecc/ETH-ECC/eth/filters"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/node"
+	"github.com/cryptoecc/WorldLand/eth/filters"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/cryptoecc/ETH-ECC/metrics"
+import "github.com/cryptoecc/WorldLand/metrics"
 
 var (
 	accountUpdatedMeter        = metrics.NewRegisteredMeter("state/update/account", nil)

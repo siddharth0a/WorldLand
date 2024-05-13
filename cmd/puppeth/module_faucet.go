@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

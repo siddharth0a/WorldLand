@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/event"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

@@ -24,11 +24,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/p2p/dnsdisc"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/p2p/dnsdisc"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

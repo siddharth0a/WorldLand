@@ -19,7 +19,7 @@ package types
 import (
 	"errors"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // IsLegacyStoredReceipts tries to parse the RLP-encoded blob

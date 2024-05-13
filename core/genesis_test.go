@@ -21,14 +21,14 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/params"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/params"
-	)
+)
 
 func TestInvalidCliqueConfig(t *testing.T) {
 	block := DefaultGoerliGenesisBlock()

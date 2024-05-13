@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

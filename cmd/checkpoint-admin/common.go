@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/accounts/abi/bind"
-	"github.com/cryptoecc/ETH-ECC/accounts/external"
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/contracts/checkpointoracle"
-	"github.com/cryptoecc/ETH-ECC/ethclient"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/accounts/abi/bind"
+	"github.com/cryptoecc/WorldLand/accounts/external"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/contracts/checkpointoracle"
+	"github.com/cryptoecc/WorldLand/ethclient"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/urfave/cli/v2"
 )
 

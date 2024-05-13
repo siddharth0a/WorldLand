@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/console"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/console"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/urfave/cli/v2"
 )
 

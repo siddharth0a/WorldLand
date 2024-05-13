@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 	"github.com/holiman/uint256"
 )
 

@@ -23,8 +23,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/mattn/go-colorable"
 )
 

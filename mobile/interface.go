@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

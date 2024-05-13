@@ -21,8 +21,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
 	"github.com/urfave/cli/v2"
 )
 

@@ -19,8 +19,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/eth/ethconfig"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
+	"github.com/cryptoecc/WorldLand/eth/ethconfig"
+	"github.com/cryptoecc/WorldLand/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

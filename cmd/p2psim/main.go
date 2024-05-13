@@ -45,13 +45,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/simulations"
-	"github.com/cryptoecc/ETH-ECC/p2p/simulations/adapters"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/simulations"
+	"github.com/cryptoecc/WorldLand/p2p/simulations/adapters"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/urfave/cli/v2"
 )
 

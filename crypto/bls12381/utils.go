@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 func bigFromHex(hex string) *big.Int {

@@ -22,17 +22,17 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	l "github.com/cryptoecc/ETH-ECC/les"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
-	"github.com/cryptoecc/ETH-ECC/trie"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/crypto"
+	l "github.com/cryptoecc/WorldLand/les"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
+	"github.com/cryptoecc/WorldLand/trie"
 )
 
 var (

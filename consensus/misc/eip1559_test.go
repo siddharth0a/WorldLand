@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // copyConfig does a _shallow_ copy of a given config. Safe to set new values, but

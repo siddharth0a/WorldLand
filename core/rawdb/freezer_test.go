@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"github.com/stretchr/testify/require"
 )
 

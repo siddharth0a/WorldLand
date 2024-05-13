@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/light"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/light"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

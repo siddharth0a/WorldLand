@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

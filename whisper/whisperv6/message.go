@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/crypto/ecies"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/crypto/ecies"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/crypto/ecies"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/crypto/ecies"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

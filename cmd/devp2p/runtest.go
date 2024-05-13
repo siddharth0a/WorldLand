@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/devp2p/internal/v4test"
-	"github.com/cryptoecc/ETH-ECC/internal/utesting"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/cmd/devp2p/internal/v4test"
+	"github.com/cryptoecc/WorldLand/internal/utesting"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/urfave/cli/v2"
 )
 

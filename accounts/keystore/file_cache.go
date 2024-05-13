@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 	mapset "github.com/deckarep/golang-set"
 )
 

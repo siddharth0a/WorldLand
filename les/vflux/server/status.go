@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/nodestate"
+	"github.com/cryptoecc/WorldLand/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
+	"github.com/cryptoecc/WorldLand/common/math"
 	"github.com/urfave/cli/v2"
 )
 

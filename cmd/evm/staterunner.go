@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/eth/tracers/logger"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/tests"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/eth/tracers/logger"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/tests"
 
 	"github.com/urfave/cli/v2"
 )

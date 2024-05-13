@@ -24,10 +24,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/cmd/evm/internal/t8ntool"
+	"github.com/cryptoecc/WorldLand/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/cryptoecc/ETH-ECC/cmd/evm/internal/t8ntool"
-	"github.com/cryptoecc/ETH-ECC/internal/cmdtest"
-	)
+)
 
 func TestMain(m *testing.M) {
 	// Run the app if we've been exec'd as "ethkey-test" in runEthkey.

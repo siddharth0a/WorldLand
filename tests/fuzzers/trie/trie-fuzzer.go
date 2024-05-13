@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/ethdb/memorydb"
-	"github.com/cryptoecc/ETH-ECC/trie"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/ethdb/memorydb"
+	"github.com/cryptoecc/WorldLand/trie"
 )
 
 // randTest performs random trie operations.

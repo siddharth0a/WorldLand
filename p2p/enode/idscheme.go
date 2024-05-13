@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common/math"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

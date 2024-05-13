@@ -22,7 +22,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

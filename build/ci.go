@@ -57,10 +57,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto/signify"
-	"github.com/cryptoecc/ETH-ECC/internal/build"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto/signify"
+	"github.com/cryptoecc/WorldLand/internal/build"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 var (
@@ -1028,7 +1028,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/cryptoecc/ETH-ECC/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/cryptoecc/WorldLand/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -1153,7 +1153,7 @@ func doXCodeFramework(cmdline []string) {
 	build.MustRun(tc.Install(GOBIN, "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 
 	// Build the iOS XCode framework
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/cryptoecc/ETH-ECC/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/cryptoecc/WorldLand/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

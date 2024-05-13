@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/eth"
-	"github.com/cryptoecc/ETH-ECC/eth/protocols/snap"
-	"github.com/cryptoecc/ETH-ECC/p2p"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/eth/protocols/eth"
+	"github.com/cryptoecc/WorldLand/eth/protocols/snap"
+	"github.com/cryptoecc/WorldLand/p2p"
 )
 
 var (

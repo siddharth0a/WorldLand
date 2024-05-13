@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/evm/internal/t8ntool"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
+	"github.com/cryptoecc/WorldLand/cmd/evm/internal/t8ntool"
+	"github.com/cryptoecc/WorldLand/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

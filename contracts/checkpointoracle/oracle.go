@@ -24,10 +24,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/abi/bind"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/contracts/checkpointoracle/contract"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/accounts/abi/bind"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/contracts/checkpointoracle/contract"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

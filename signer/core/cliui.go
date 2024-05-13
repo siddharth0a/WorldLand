@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 type CommandlineUI struct {

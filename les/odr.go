@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
-	"github.com/cryptoecc/ETH-ECC/light"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/ethdb"
+	"github.com/cryptoecc/WorldLand/light"
 )
 
 // LesOdr implements light.OdrBackend

@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/beacon"
-	"github.com/cryptoecc/ETH-ECC/les"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/beacon"
+	"github.com/cryptoecc/WorldLand/les"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

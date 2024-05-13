@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/tests/fuzzers/difficulty"
+	"github.com/cryptoecc/WorldLand/tests/fuzzers/difficulty"
 )
 
 func main() {

@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/olekukonko/tablewriter"
 )
 

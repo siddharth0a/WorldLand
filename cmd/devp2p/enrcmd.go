@@ -27,9 +27,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"github.com/urfave/cli/v2"
 )
 

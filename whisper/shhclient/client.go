@@ -19,9 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/rpc"
-	whisper "github.com/cryptoecc/ETH-ECC/whisper/whisperv6"
+	ethereum "github.com/cryptoecc/WorldLand"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/rpc"
+	whisper "github.com/cryptoecc/WorldLand/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

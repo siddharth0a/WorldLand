@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/simulations/adapters"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/simulations/adapters"
 )
 
 //a map of mocker names to its function

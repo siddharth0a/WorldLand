@@ -39,23 +39,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/eth/downloader"
-	"github.com/cryptoecc/ETH-ECC/eth/ethconfig"
-	"github.com/cryptoecc/ETH-ECC/ethclient"
-	"github.com/cryptoecc/ETH-ECC/ethstats"
-	"github.com/cryptoecc/ETH-ECC/les"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/p2p"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/nat"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/eth/downloader"
+	"github.com/cryptoecc/WorldLand/eth/ethconfig"
+	"github.com/cryptoecc/WorldLand/ethclient"
+	"github.com/cryptoecc/WorldLand/ethstats"
+	"github.com/cryptoecc/WorldLand/les"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/p2p"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/nat"
+	"github.com/cryptoecc/WorldLand/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/cryptoecc/ETH-ECC/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/cryptoecc/WorldLand/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

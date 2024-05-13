@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
+	"github.com/cryptoecc/WorldLand/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

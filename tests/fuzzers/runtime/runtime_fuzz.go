@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/cryptoecc/ETH-ECC/core/vm/runtime"
+	"github.com/cryptoecc/WorldLand/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

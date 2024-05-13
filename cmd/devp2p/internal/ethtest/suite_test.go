@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/eth"
-	"github.com/cryptoecc/ETH-ECC/eth/ethconfig"
-	"github.com/cryptoecc/ETH-ECC/internal/utesting"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/p2p"
+	"github.com/cryptoecc/WorldLand/eth"
+	"github.com/cryptoecc/WorldLand/eth/ethconfig"
+	"github.com/cryptoecc/WorldLand/internal/utesting"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/p2p"
 )
 
 var (

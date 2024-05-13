@@ -22,13 +22,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/devp2p/internal/v4test"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/p2p/discover"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/cmd/devp2p/internal/v4test"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/p2p/discover"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/params"
 	"github.com/urfave/cli/v2"
 )
 

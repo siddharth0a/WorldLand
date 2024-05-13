@@ -5,7 +5,7 @@
 
 package types
 
-import "github.com/cryptoecc/ETH-ECC/rlp"
+import "github.com/cryptoecc/WorldLand/rlp"
 import "io"
 
 func (obj *Header) EncodeRLP(_w io.Writer) error {

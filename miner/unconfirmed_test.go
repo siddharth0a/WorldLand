@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

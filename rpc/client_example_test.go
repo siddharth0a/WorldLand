@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

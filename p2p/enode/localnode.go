@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/p2p/netutil"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/p2p/netutil"
 )
 
 const (

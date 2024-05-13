@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/nodestate"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

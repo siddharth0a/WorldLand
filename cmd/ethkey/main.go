@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
+	"github.com/cryptoecc/WorldLand/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.
