@@ -34,7 +34,6 @@ var (
 	GoerliGenesisHash  = common.HexToHash("0xbf7e331f7f7c1dd2e05159666b3bf8bc7a8a3a9eb1d518969eab529dd9b88c1a")
 	KilnGenesisHash    = common.HexToHash("0x51c7fe41be669f69c45c33a56982cbde405313342d9e2b00d7c91a7b284dd4f8")
 
-	LveGenesisHash = common.HexToHash("0x7c5cb1a45d2424a2be1155c22979bbe384aff07810260041d5609a87bc3c58cc")
 	SeoulGenesisHash = common.HexToHash("0x5bd83be2a4c3a01b45e48fe181de1e6173d92cf5b54790fe64962dd2a7f25abb")
 	GwangjuGenesisHash = common.HexToHash("0x64130a2624d46bda6aacf0c1ec34ab3d926e31b8438141a10e7412070064f0bf")
 )
@@ -48,7 +47,6 @@ var TrustedCheckpoints = map[common.Hash]*TrustedCheckpoint{
 	RinkebyGenesisHash: RinkebyTrustedCheckpoint,
 	GoerliGenesisHash:  GoerliTrustedCheckpoint,
 
-	//LveGenesisHash:  LveTrustedCheckpoint,
 	//SeoulGenesisHash:  SeoulTrustedCheckpoint,
 	//GwangjuGenesisHash:  GwangjuTrustedCheckpoint,
 }
@@ -62,7 +60,6 @@ var CheckpointOracles = map[common.Hash]*CheckpointOracleConfig{
 	GoerliGenesisHash:  GoerliCheckpointOracle,
 
 	//update
-	//LveGenesisHash:  LveCheckpointOracle,
 	//SeoulGenesisHash:  SeoulCheckpointOracle,
 	//GwangjuGenesisHash:  GwangjuCheckpointOracle,
 }
@@ -279,49 +276,6 @@ var (
 		Threshold: 2,
 	}
 
-	// LveChainConfig contains the chain parameters to run a node on the Görli test network.
-	LveChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(12345),
-		HomesteadBlock:      big.NewInt(0),
-		EIP150Block:         big.NewInt(0),
-		EIP150Hash:          common.HexToHash("0x0000000000000000000000000000000000000000000000000000000000000000"),
-		EIP155Block:         big.NewInt(0),
-		EIP158Block:         big.NewInt(0),
-		ByzantiumBlock:      big.NewInt(0),
-		ConstantinopleBlock: big.NewInt(0),
-		PetersburgBlock:     big.NewInt(0),
-		IstanbulBlock:       big.NewInt(0),
-		MuirGlacierBlock:    nil,
-		BerlinBlock:         big.NewInt(0),
-		LondonBlock:         big.NewInt(0),
-		//SeoulBlock:          big.NewInt(220000),
-		ArrowGlacierBlock:   nil,
-		GrayGlacierBlock:    nil,
-		Eccpow:              new(EccpowConfig),
-	}
-
-	/*
-		// LveTrustedCheckpoint contains the light client trusted checkpoint for the Görli test network.
-		LveTrustedCheckpoint = &TrustedCheckpoint{
-			SectionIndex: 32,
-			SectionHead:  common.HexToHash("0x50eaedd8361fa9edd0ac2dec410310b9bdf67b963b60f3b1dce47f84b30670f9"),
-			CHTRoot:      common.HexToHash("0x6504db73139f75ffa9102ae980e41b361cf3d5b66cea06c79cde9f457368820c"),
-			BloomRoot:    common.HexToHash("0x7551ae027bb776252a20ded51ee2ff0cbfbd1d8d57261b9161cc1f2f80237001"),
-		}
-
-		// LveCheckpointOracle contains a set of configs for the Lve test network oracle.
-		LveCheckpointOracle = &CheckpointOracleConfig{
-			Address: common.HexToAddress("0x18CA0E045F0D772a851BC7e48357Bcaab0a0795D"),
-			Signers: []common.Address{
-				common.HexToAddress("0x4769bcaD07e3b938B7f43EB7D278Bc7Cb9efFb38"), // Peter
-				common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
-				common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
-				common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
-				common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
-			},
-				Threshold: 2,
-		}*/
-
 	SeoulChainConfig = &ChainConfig{
 		ChainID:                       big.NewInt(103),
 		HomesteadBlock:                big.NewInt(0),
@@ -338,11 +292,12 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		WorldlandBlock:        	       big.NewInt(0),
 		SeoulBlock:        	           big.NewInt(0),
+		AnnapurnaBlock:               big.NewInt(2_456_000),
 		HalvingEndTime:       		   big.NewInt(25228800),
 		Eccpow: 				       new(EccpowConfig),
 	}
 
-		/* SeoulTrustedCheckpoint contains the light client trusted checkpoint for the Görli test network.
+		/* SeoulTrustedCheckpoint contains the light client trusted checkpoint for the Seoul network.
 	SeoulTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 32,
 		SectionHead:  common.HexToHash("0x50eaedd8361fa9edd0ac2dec410310b9bdf67b963b60f3b1dce47f84b30670f9"),
@@ -350,7 +305,7 @@ var (
 		BloomRoot:    common.HexToHash("0x7551ae027bb776252a20ded51ee2ff0cbfbd1d8d57261b9161cc1f2f80237001"),
 	}
 	
-		// SeoulCheckpointOracle contains a set of configs for the Lve test network oracle.
+		// SeoulCheckpointOracle contains a set of configs for the Seoul network oracle.
 	SeoulCheckpointOracle = &CheckpointOracleConfig{
 		Address: common.HexToAddress("0x18CA0E045F0D772a851BC7e48357Bcaab0a0795D"),
 		Signers: []common.Address{
@@ -379,11 +334,12 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		WorldlandBlock:        	       big.NewInt(0),
 		SeoulBlock:        	           big.NewInt(0),
+		AnnapurnaBlock:               big.NewInt(2_194_000),
 		HalvingEndTime:                big.NewInt(25228800),
 		Eccpow: 				       new(EccpowConfig),
 	}
 	
-	/* SeoulTrustedCheckpoint contains the light client trusted checkpoint for the Görli test network.
+	/* SeoulTrustedCheckpoint contains the light client trusted checkpoint for the Gwangju test network.
 	SeoulTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 32,
 		SectionHead:  common.HexToHash("0x50eaedd8361fa9edd0ac2dec410310b9bdf67b963b60f3b1dce47f84b30670f9"),
@@ -391,7 +347,7 @@ var (
 		BloomRoot:    common.HexToHash("0x7551ae027bb776252a20ded51ee2ff0cbfbd1d8d57261b9161cc1f2f80237001"),
 	}
 	
-		// SeoulCheckpointOracle contains a set of configs for the Lve test network oracle.
+		// SeoulCheckpointOracle contains a set of configs for the Gwangju network oracle.
 	SeoulCheckpointOracle = &CheckpointOracleConfig{
 		Address: common.HexToAddress("0x18CA0E045F0D772a851BC7e48357Bcaab0a0795D"),
 		Signers: []common.Address{
@@ -455,16 +411,16 @@ var (
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil,  nil, nil, nil, false, new(EthashConfig), nil, nil}
+	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil,  nil, nil, nil, nil, false, new(EthashConfig), nil, nil}
 
 	// AllCliqueProtocolChanges contains every protocol change (EIPs) introduced
 	// and accepted by the Ethereum core developers into the Clique consensus.
 	//
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
-	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, nil, nil,  nil, nil, nil, false, nil, &CliqueConfig{Period: 0, Epoch: 30000}, nil}
+	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, nil, nil,  nil, nil, nil, nil, false, nil, &CliqueConfig{Period: 0, Epoch: 30000}, nil}
 
-	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, nil, nil, nil, false, new(EthashConfig), nil, nil}
+	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, nil, nil, nil, nil, false, new(EthashConfig), nil, nil}
 	//NonActivatedConfig = &ChainConfig{big.NewInt(1), nil, nil, false, nil, common.Hash{}, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, false, new(EthashConfig), nil, nil}
 	TestRules = TestChainConfig.Rules(new(big.Int), false)
 )
@@ -476,7 +432,6 @@ var NetworkNames = map[string]string{
 	RinkebyChainConfig.ChainID.String(): "rinkeby",
 	GoerliChainConfig.ChainID.String():  "goerli",
 	SepoliaChainConfig.ChainID.String(): "sepolia",
-	LveChainConfig.ChainID.String():  "lve",
 	SeoulChainConfig.ChainID.String():  "seoul",
 	GwangjuChainConfig.ChainID.String():  "gwangju",
 }
@@ -565,6 +520,7 @@ type ChainConfig struct {
 	WorldlandBlock       *big.Int `json:"worldlandBlock,omitempty"`       // worldrand switch block (nil = no fork, 0 = already on worldland)
 	HalvingEndTime       *big.Int `json:"HalvingEndTime,omitempty"`
 	SeoulBlock           *big.Int `json:"seoulBlock,omitempty"`
+	AnnapurnaBlock      *big.Int `json:"AnnapurnaBlock,omitempty"`
 
 	// TerminalTotalDifficulty is the amount of total difficulty reached by
 	// the network that triggers the consensus upgrade.
@@ -647,7 +603,6 @@ func (c *ChainConfig) String() string {
 		banner += "Consensus: unknown\n"
 	}
 	//banner += "\n"
-
 	// Create a list of forks with a short description of them. Forks that only
 	// makes sense for mainnet should be optional at printing to avoid bloating
 	// the output for testnets and private networks.
@@ -687,6 +642,9 @@ func (c *ChainConfig) String() string {
 	}
 	if c.SeoulBlock != nil {
 		banner += fmt.Sprintf(" - Seoul:                       %-8v\n", c.SeoulBlock)
+	}
+	if c.AnnapurnaBlock != nil {
+		banner += fmt.Sprintf(" - Annapurna:                       %-8v\n", c.AnnapurnaBlock)
 	}
 	banner += "\n"
     */
@@ -817,6 +775,12 @@ func (c *ChainConfig) IsSeoul(num *big.Int) bool {
 	return isForked(c.SeoulBlock, num)
 }
 
+// IsAnnapurna returns whether num is either equ`al to the Annapurna fork block or greater.
+func (c *ChainConfig) IsAnnapurna(num *big.Int) bool {
+	return isForked(c.AnnapurnaBlock, num)
+}
+
+
 // CheckCompatible checks whether scheduled fork transitions have been imported
 // with a mismatching chain configuration.
 func (c *ChainConfig) CheckCompatible(newcfg *ChainConfig, height uint64) *ConfigCompatError {
@@ -864,6 +828,7 @@ func (c *ChainConfig) CheckConfigForkOrder() error {
 		{name: "cancunBlock", block: c.CancunBlock, optional: true},
 		{name: "worldlandBlock", block: c.WorldlandBlock, optional: true},
 		{name: "seoulBlock", block: c.SeoulBlock, optional: true},
+		{name: "AnnapurnaBlock", block: c.AnnapurnaBlock, optional: true},
 	} {
 		if lastFork.name != "" {
 			// Next one must be higher number
@@ -954,6 +919,10 @@ func (c *ChainConfig) checkCompatible(newcfg *ChainConfig, head *big.Int) *Confi
 	if isForkIncompatible(c.SeoulBlock, newcfg.SeoulBlock, head) {
 		return newCompatError("Seoul fork block", c.SeoulBlock, newcfg.SeoulBlock)
 	}
+	if isForkIncompatible(c.AnnapurnaBlock, newcfg.AnnapurnaBlock, head) {
+		return newCompatError("Annapurna fork block", c.AnnapurnaBlock, newcfg.AnnapurnaBlock)
+	}
+
 	return nil
 }
 
@@ -1047,6 +1016,7 @@ type Rules struct {
 	IsMerge, IsShanghai, isCancun                           bool
 	IsWorldland                                             bool
 	IsSeoul                                                 bool
+	IsAnnapurna                                            bool
 }
 
 // Rules ensures c's ChainID is not nil.
@@ -1072,5 +1042,6 @@ func (c *ChainConfig) Rules(num *big.Int, isMerge bool) Rules {
 		isCancun:         c.IsCancun(num),
 		IsWorldland:      c.IsWorldland(num),
 		IsSeoul:          c.IsSeoul(num),
+		IsAnnapurna:     c.IsAnnapurna(num),
 	}
 }

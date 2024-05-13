@@ -188,13 +188,6 @@ func NewNode(datadir string, config *NodeConfig) (stack *Node, _ error) {
 			}
 		}
 
-		if config.EthereumGenesis == LveGenesis() {
-			genesis.Config = params.LveChainConfig
-			if config.EthereumNetworkID == 1 {
-				config.EthereumNetworkID = 12345
-			}
-		}
-
 		if config.EthereumGenesis == SeoulGenesis() {
 			genesis.Config = params.SeoulChainConfig
 			if config.EthereumNetworkID == 1 {

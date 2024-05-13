@@ -88,7 +88,6 @@ var (
 	rinkebyFlag = flag.Bool("rinkeby", false, "Initializes the faucet with Rinkeby network config")
 	sepoliaFlag = flag.Bool("sepolia", false, "Initializes the faucet with Sepolia network config")
 
-	lveFlag  = flag.Bool("lve", false, "Initializes the faucet with Lve network config")
 	SeoulFlag  = flag.Bool("seoul", false, "Initializes the faucet with Seoul network config")
 	GwangjuFlag  = flag.Bool("gwangju", false, "Initializes the faucet with Gwangju network config")
 )
