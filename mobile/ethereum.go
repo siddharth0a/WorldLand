@@ -22,7 +22,7 @@ import (
 	"errors"
 
 	"github.com/cryptoecc/WorldLand/common"
-	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/WorldLand"
 )
 
 // Subscription represents an event subscription where events are

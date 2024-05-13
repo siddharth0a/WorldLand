@@ -37,7 +37,7 @@ import (
 	"github.com/cryptoecc/WorldLand/miner"
 	"github.com/cryptoecc/WorldLand/params"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/WorldLand"
 )
 
 // EthAPIBackend implements ethapi.Backend for full nodes

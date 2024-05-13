@@ -28,7 +28,7 @@ import (
 	"github.com/cryptoecc/WorldLand/core/types"
 	"github.com/cryptoecc/WorldLand/p2p"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/WorldLand"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

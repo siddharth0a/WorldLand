@@ -28,7 +28,7 @@ import (
 	"github.com/cryptoecc/WorldLand/common/hexutil"
 	"github.com/cryptoecc/WorldLand/core/types"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/WorldLand"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

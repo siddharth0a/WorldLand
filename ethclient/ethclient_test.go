@@ -37,7 +37,7 @@ import (
 	"github.com/cryptoecc/WorldLand/node"
 	"github.com/cryptoecc/WorldLand/params"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/go-ethereum"
+	"github.com/ethereum/WorldLand"
 )
 
 // Verify that Client implements the ethereum interfaces.
