@@ -26,6 +26,7 @@ import (
 	"testing"
 	"time"
 
+	ethereum "github.com/cryptoecc/WorldLand"
 	"github.com/cryptoecc/WorldLand/common"
 	"github.com/cryptoecc/WorldLand/consensus/ethash"
 	"github.com/cryptoecc/WorldLand/core"
@@ -37,7 +38,6 @@ import (
 	"github.com/cryptoecc/WorldLand/node"
 	"github.com/cryptoecc/WorldLand/params"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/WorldLand"
 )
 
 // Verify that Client implements the ethereum interfaces.

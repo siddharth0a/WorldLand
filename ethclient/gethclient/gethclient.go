@@ -23,12 +23,12 @@ import (
 	"runtime"
 	"runtime/debug"
 
+	ethereum "github.com/cryptoecc/WorldLand"
 	"github.com/cryptoecc/WorldLand/common"
 	"github.com/cryptoecc/WorldLand/common/hexutil"
 	"github.com/cryptoecc/WorldLand/core/types"
 	"github.com/cryptoecc/WorldLand/p2p"
 	"github.com/cryptoecc/WorldLand/rpc"
-	"github.com/ethereum/WorldLand"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.
