@@ -316,10 +316,11 @@ func (ecc *ECC) verifyHeader(chain consensus.ChainHeaderReader, header, parent *
 func (ecc *ECC) CalcDifficulty(chain consensus.ChainHeaderReader, time uint64, parent *types.Header) *big.Int {
 	next := new(big.Int).Add(parent.Number, big1)
 	switch {
-	case chain.Config().IsSeoul(next):
-		return calcDifficultySeoul(chain, time, parent)
 	case chain.Config().IsAnnapurna(next):
 		return calcDifficultyAnnapurna(chain, time, parent)
+	case chain.Config().IsSeoul(next):
+		return calcDifficultySeoul(chain, time, parent)
+
 		//return calcDifficultyFrontier(time, parent)
 	default:
 		//fmt.Println("frontier")
