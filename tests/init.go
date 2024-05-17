@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // Forks table defines supported forks and their chain config.

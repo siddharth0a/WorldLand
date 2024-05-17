@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/abi/bind"
-	"github.com/cryptoecc/ETH-ECC/accounts/abi/bind/backends"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/accounts/abi/bind"
+	"github.com/cryptoecc/WorldLand/accounts/abi/bind/backends"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

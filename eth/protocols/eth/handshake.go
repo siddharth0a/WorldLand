@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/forkid"
-	"github.com/cryptoecc/ETH-ECC/p2p"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/forkid"
+	"github.com/cryptoecc/WorldLand/p2p"
 )
 
 const (

@@ -33,25 +33,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/node"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
-	"github.com/cryptoecc/ETH-ECC/rpc"
-	"github.com/cryptoecc/ETH-ECC/signer/core"
-	"github.com/cryptoecc/ETH-ECC/signer/core/apitypes"
-	"github.com/cryptoecc/ETH-ECC/signer/fourbyte"
-	"github.com/cryptoecc/ETH-ECC/signer/rules"
-	"github.com/cryptoecc/ETH-ECC/signer/storage"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/node"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
+	"github.com/cryptoecc/WorldLand/rpc"
+	"github.com/cryptoecc/WorldLand/signer/core"
+	"github.com/cryptoecc/WorldLand/signer/core/apitypes"
+	"github.com/cryptoecc/WorldLand/signer/fourbyte"
+	"github.com/cryptoecc/WorldLand/signer/rules"
+	"github.com/cryptoecc/WorldLand/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -736,7 +736,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/cryptoecc/ETH-ECC/issues/20123
+	// https://github.com/cryptoecc/WorldLand/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

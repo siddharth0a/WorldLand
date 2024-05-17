@@ -28,7 +28,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/rlp/internal/rlpstruct"
+	"github.com/cryptoecc/WorldLand/rlp/internal/rlpstruct"
 )
 
 //lint:ignore ST1012 EOL is not an error.

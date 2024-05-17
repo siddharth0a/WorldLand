@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common/math"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"github.com/golang/snappy"
 )
 

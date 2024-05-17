@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/event"
+	"github.com/cryptoecc/WorldLand/event"
 )
 
 func ExampleNewSubscription() {

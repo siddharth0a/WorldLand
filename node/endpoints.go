@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

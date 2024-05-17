@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/abi"
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/accounts/abi"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/signer/core/apitypes"
-	"github.com/cryptoecc/ETH-ECC/signer/fourbyte"
+	"github.com/cryptoecc/WorldLand/signer/core/apitypes"
+	"github.com/cryptoecc/WorldLand/signer/fourbyte"
 )
 
 func init() {

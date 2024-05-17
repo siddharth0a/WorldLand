@@ -29,12 +29,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	)
+)
 
 // To regenerate discv5 test vectors, run
 //

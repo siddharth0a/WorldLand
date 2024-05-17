@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/consensus"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/metrics"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/consensus"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/metrics"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"golang.org/x/crypto/sha3"
 )
 

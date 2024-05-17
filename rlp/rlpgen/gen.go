@@ -23,7 +23,7 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/rlp/internal/rlpstruct"
+	"github.com/cryptoecc/WorldLand/rlp/internal/rlpstruct"
 )
 
 // buildContext keeps the data needed for make*Op.

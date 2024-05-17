@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 type UpdateTimer struct {

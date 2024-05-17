@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/ethdb"
 )
 
 var (

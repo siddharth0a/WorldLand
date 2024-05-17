@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/tests/fuzzers/rangeproof"
+	"github.com/cryptoecc/WorldLand/tests/fuzzers/rangeproof"
 )
 
 func main() {

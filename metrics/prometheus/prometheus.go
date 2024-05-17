@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/metrics"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

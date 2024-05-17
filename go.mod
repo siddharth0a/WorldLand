@@ -1,4 +1,4 @@
-module github.com/cryptoecc/ETH-ECC
+module github.com/cryptoecc/WorldLand
 
 go 1.18
 

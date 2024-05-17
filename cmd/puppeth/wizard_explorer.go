@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

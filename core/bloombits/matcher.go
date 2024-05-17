@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/bitutil"
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/common/bitutil"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

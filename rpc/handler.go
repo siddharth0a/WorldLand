@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

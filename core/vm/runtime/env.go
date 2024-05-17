@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

@@ -22,10 +22,10 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/p2p/simulations/pipes"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/p2p/simulations/pipes"
-	)
+)
 
 func TestProtocolHandshake(t *testing.T) {
 	var (

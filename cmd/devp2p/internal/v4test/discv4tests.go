@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/internal/utesting"
-	"github.com/cryptoecc/ETH-ECC/p2p/discover/v4wire"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/internal/utesting"
+	"github.com/cryptoecc/WorldLand/p2p/discover/v4wire"
 )
 
 const (

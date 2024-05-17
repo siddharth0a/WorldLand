@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
+	"github.com/cryptoecc/WorldLand/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

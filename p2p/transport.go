@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/bitutil"
-	"github.com/cryptoecc/ETH-ECC/metrics"
-	"github.com/cryptoecc/ETH-ECC/p2p/rlpx"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/bitutil"
+	"github.com/cryptoecc/WorldLand/metrics"
+	"github.com/cryptoecc/WorldLand/p2p/rlpx"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 const (

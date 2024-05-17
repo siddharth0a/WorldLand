@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/accounts/abi"
+	"github.com/cryptoecc/WorldLand/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common/mclock"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/common/mclock"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

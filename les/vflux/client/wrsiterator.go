@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/les/utils"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
-	"github.com/cryptoecc/ETH-ECC/p2p/nodestate"
+	"github.com/cryptoecc/WorldLand/les/utils"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

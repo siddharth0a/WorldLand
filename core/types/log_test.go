@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	)
+)
 
 var unmarshalLogTests = map[string]struct {
 	input     string

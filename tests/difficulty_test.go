@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 var (

@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/les/utils"
+	"github.com/cryptoecc/WorldLand/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

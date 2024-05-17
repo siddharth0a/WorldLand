@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/metrics"
+	"github.com/cryptoecc/WorldLand/metrics"
 )
 
 func TestMain(m *testing.M) {

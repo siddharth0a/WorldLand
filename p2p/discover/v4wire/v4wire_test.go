@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/rlp"
-	)
+)
 
 // EIP-8 test vectors.
 var testPackets = []struct {

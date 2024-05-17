@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cryptoecc/ETH-ECC/common/fdlimit"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common/fdlimit"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/urfave/cli/v2"
 )
 

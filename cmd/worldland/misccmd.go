@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/consensus/ethash"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/consensus/ethash"
+	"github.com/cryptoecc/WorldLand/params"
 	"github.com/urfave/cli/v2"
 )
 

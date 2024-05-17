@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

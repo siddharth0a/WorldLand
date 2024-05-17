@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

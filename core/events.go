@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/types"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

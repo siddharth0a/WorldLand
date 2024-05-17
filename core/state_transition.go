@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	cmath "github.com/cryptoecc/ETH-ECC/common/math"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/common"
+	cmath "github.com/cryptoecc/WorldLand/common/math"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/les/utils"
+	"github.com/cryptoecc/WorldLand/les/utils"
 )
 
 func TestTransition(t *testing.T) {

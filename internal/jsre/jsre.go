@@ -27,7 +27,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 	"github.com/dop251/goja"
 )
 

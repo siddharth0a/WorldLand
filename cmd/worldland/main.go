@@ -25,24 +25,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/cmd/utils"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/console/prompt"
-	"github.com/cryptoecc/ETH-ECC/eth"
-	"github.com/cryptoecc/ETH-ECC/eth/downloader"
-	"github.com/cryptoecc/ETH-ECC/ethclient"
-	"github.com/cryptoecc/ETH-ECC/internal/debug"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/internal/flags"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/metrics"
-	"github.com/cryptoecc/ETH-ECC/node"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/cmd/utils"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/console/prompt"
+	"github.com/cryptoecc/WorldLand/eth"
+	"github.com/cryptoecc/WorldLand/eth/downloader"
+	"github.com/cryptoecc/WorldLand/ethclient"
+	"github.com/cryptoecc/WorldLand/internal/debug"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/internal/flags"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/metrics"
+	"github.com/cryptoecc/WorldLand/node"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/cryptoecc/ETH-ECC/eth/tracers/js"
-	_ "github.com/cryptoecc/ETH-ECC/eth/tracers/native"
+	_ "github.com/cryptoecc/WorldLand/eth/tracers/js"
+	_ "github.com/cryptoecc/WorldLand/eth/tracers/native"
 
 	"github.com/urfave/cli/v2"
 )
@@ -56,7 +56,7 @@ var (
 	gitCommit = ""
 	gitDate   = ""
 	// The app that holds all commands and flags.
-	app = flags.NewApp(gitCommit, gitDate, "the ETH-ECC command line interface")
+	app = flags.NewApp(gitCommit, gitDate, "the WorldLand command line interface")
 	// flags that configure the node
 	nodeFlags = flags.Merge([]cli.Flag{
 		utils.IdentityFlag,
@@ -209,7 +209,7 @@ func init() {
 	// Initialize the CLI app and start Geth
 	app.Action = geth
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2023 The ETH-ECC and go-ethereum Authors"
+	app.Copyright = "Copyright 2023 The WorldLand and go-ethereum Authors"
 	app.Commands = []*cli.Command{
 		// See chaincmd.go:
 		initCommand,

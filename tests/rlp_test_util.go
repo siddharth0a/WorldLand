@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 func nodeToBytes(n node) []byte {

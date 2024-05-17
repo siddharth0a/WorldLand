@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus"
-	"github.com/cryptoecc/ETH-ECC/consensus/misc"
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rpc"
-	"github.com/cryptoecc/ETH-ECC/trie"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus"
+	"github.com/cryptoecc/WorldLand/consensus/misc"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rpc"
+	"github.com/cryptoecc/WorldLand/trie"
 )
 
 // Proof-of-stake protocol constants.

@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 // Whisper protocol parameters

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/core"
-	"github.com/cryptoecc/ETH-ECC/light"
+	"github.com/cryptoecc/WorldLand/core"
+	"github.com/cryptoecc/WorldLand/light"
 )
 
 func TestLightPruner(t *testing.T) {

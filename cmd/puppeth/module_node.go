@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

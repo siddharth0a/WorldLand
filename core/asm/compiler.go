@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cryptoecc/ETH-ECC/common/math"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
+	"github.com/cryptoecc/WorldLand/common/math"
+	"github.com/cryptoecc/WorldLand/core/vm"
 )
 
 // Compiler contains information about the parsed source

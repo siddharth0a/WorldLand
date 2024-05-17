@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 	"golang.org/x/crypto/sha3"
 )
 
@@ -334,7 +334,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		WorldlandBlock:        	       big.NewInt(0),
 		SeoulBlock:        	           big.NewInt(0),
-		AnnapurnaBlock:               big.NewInt(2_194_000),
+		AnnapurnaBlock:               big.NewInt(2_194_400),
 		HalvingEndTime:                big.NewInt(25228800),
 		Eccpow: 				       new(EccpowConfig),
 	}

@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rpc"
 )
 
 type StdIOUI struct {

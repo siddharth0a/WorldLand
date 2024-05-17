@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/light"
+	"github.com/cryptoecc/WorldLand/light"
 )
 
 var (

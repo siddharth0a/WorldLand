@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/state/snapshot"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/state/snapshot"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 // Constants to match up protocol versions and messages

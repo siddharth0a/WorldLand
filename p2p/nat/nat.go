@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/log"
+	"github.com/cryptoecc/WorldLand/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

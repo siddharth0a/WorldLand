@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // hashes is a helper to implement sort.Interface.

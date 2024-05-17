@@ -22,7 +22,7 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
+	"github.com/cryptoecc/WorldLand/crypto"
 )
 
 func TestPoWCalculationsWithNoLeadingZeros(t *testing.T) {

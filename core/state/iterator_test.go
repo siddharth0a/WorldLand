@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/ethdb"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

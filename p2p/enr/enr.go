@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

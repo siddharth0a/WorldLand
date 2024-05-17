@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/cryptoecc/ETH-ECC/common"
+import "github.com/cryptoecc/WorldLand/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

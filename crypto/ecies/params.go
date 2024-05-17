@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/cryptoecc/ETH-ECC/crypto"
+	ethcrypto "github.com/cryptoecc/WorldLand/crypto"
 )
 
 var (

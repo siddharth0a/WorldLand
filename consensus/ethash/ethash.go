@@ -33,10 +33,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cryptoecc/ETH-ECC/consensus"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/metrics"
-	"github.com/cryptoecc/ETH-ECC/rpc"
+	"github.com/cryptoecc/WorldLand/consensus"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/metrics"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
 )

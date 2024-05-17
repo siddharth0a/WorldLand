@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

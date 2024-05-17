@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/core/forkid"
-	"github.com/cryptoecc/ETH-ECC/p2p/enr"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/core/forkid"
+	"github.com/cryptoecc/WorldLand/p2p/enr"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"github.com/urfave/cli/v2"
 )
 

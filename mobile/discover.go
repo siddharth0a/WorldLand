@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 // Enode represents a host on the network.

@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/cryptoecc/ETH-ECC/accounts"
-	"github.com/cryptoecc/ETH-ECC/accounts/keystore"
-	"github.com/cryptoecc/ETH-ECC/accounts/scwallet"
-	"github.com/cryptoecc/ETH-ECC/accounts/usbwallet"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/common/hexutil"
-	"github.com/cryptoecc/ETH-ECC/internal/ethapi"
-	"github.com/cryptoecc/ETH-ECC/log"
-	"github.com/cryptoecc/ETH-ECC/rpc"
-	"github.com/cryptoecc/ETH-ECC/signer/core/apitypes"
-	"github.com/cryptoecc/ETH-ECC/signer/storage"
+	"github.com/cryptoecc/WorldLand/accounts"
+	"github.com/cryptoecc/WorldLand/accounts/keystore"
+	"github.com/cryptoecc/WorldLand/accounts/scwallet"
+	"github.com/cryptoecc/WorldLand/accounts/usbwallet"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/common/hexutil"
+	"github.com/cryptoecc/WorldLand/internal/ethapi"
+	"github.com/cryptoecc/WorldLand/log"
+	"github.com/cryptoecc/WorldLand/rpc"
+	"github.com/cryptoecc/WorldLand/signer/core/apitypes"
+	"github.com/cryptoecc/WorldLand/signer/storage"
 )
 
 const (

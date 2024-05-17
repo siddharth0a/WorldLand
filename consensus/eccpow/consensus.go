@@ -23,14 +23,15 @@ import (
 	"math/big"
 	"runtime"
 	"time"
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/consensus"
-	"github.com/cryptoecc/ETH-ECC/consensus/misc"
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/params"
-	"github.com/cryptoecc/ETH-ECC/rlp"
-	"github.com/cryptoecc/ETH-ECC/trie"
+
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/consensus"
+	"github.com/cryptoecc/WorldLand/consensus/misc"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/params"
+	"github.com/cryptoecc/WorldLand/rlp"
+	"github.com/cryptoecc/WorldLand/trie"
 	mapset "github.com/deckarep/golang-set"
 	"golang.org/x/crypto/sha3"
 )
@@ -315,10 +316,11 @@ func (ecc *ECC) verifyHeader(chain consensus.ChainHeaderReader, header, parent *
 func (ecc *ECC) CalcDifficulty(chain consensus.ChainHeaderReader, time uint64, parent *types.Header) *big.Int {
 	next := new(big.Int).Add(parent.Number, big1)
 	switch {
-	case chain.Config().IsSeoul(next):
-		return calcDifficultySeoul(chain, time, parent)
 	case chain.Config().IsAnnapurna(next):
 		return calcDifficultyAnnapurna(chain, time, parent)
+	case chain.Config().IsSeoul(next):
+		return calcDifficultySeoul(chain, time, parent)
+
 		//return calcDifficultyFrontier(time, parent)
 	default:
 		//fmt.Println("frontier")

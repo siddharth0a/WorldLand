@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/cryptoecc/ETH-ECC/common"
+	"github.com/cryptoecc/WorldLand/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

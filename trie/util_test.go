@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/core/rawdb"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/core/rawdb"
 )
 
 // Tests if the trie diffs are tracked correctly.

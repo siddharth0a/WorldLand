@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/cryptoecc/ETH-ECC/consensus"
-	"github.com/cryptoecc/ETH-ECC/core/state"
-	"github.com/cryptoecc/ETH-ECC/core/types"
-	"github.com/cryptoecc/ETH-ECC/core/vm"
-	"github.com/cryptoecc/ETH-ECC/params"
+	"github.com/cryptoecc/WorldLand/consensus"
+	"github.com/cryptoecc/WorldLand/core/state"
+	"github.com/cryptoecc/WorldLand/core/types"
+	"github.com/cryptoecc/WorldLand/core/vm"
+	"github.com/cryptoecc/WorldLand/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

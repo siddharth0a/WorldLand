@@ -24,8 +24,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cryptoecc/ETH-ECC/common"
-	"github.com/cryptoecc/ETH-ECC/p2p/enode"
+	"github.com/cryptoecc/WorldLand/common"
+	"github.com/cryptoecc/WorldLand/p2p/enode"
 )
 
 const jsonIndent = "    "

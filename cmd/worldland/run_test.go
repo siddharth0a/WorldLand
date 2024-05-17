@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/cryptoecc/WorldLand/internal/cmdtest"
+	"github.com/cryptoecc/WorldLand/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/cryptoecc/ETH-ECC/internal/cmdtest"
-	"github.com/cryptoecc/ETH-ECC/rpc"
 )
 
 type testgeth struct {

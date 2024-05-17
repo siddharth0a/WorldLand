@@ -19,8 +19,8 @@ package trie
 import (
 	"sync"
 
-	"github.com/cryptoecc/ETH-ECC/crypto"
-	"github.com/cryptoecc/ETH-ECC/rlp"
+	"github.com/cryptoecc/WorldLand/crypto"
+	"github.com/cryptoecc/WorldLand/rlp"
 	"golang.org/x/crypto/sha3"
 )
 
