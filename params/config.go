@@ -292,7 +292,7 @@ var (
 		LondonBlock:                   big.NewInt(0),
 		WorldlandBlock:        	       big.NewInt(0),
 		SeoulBlock:        	           big.NewInt(0),
-		AnnapurnaBlock:               big.NewInt(2_456_000),
+		AnnapurnaBlock:               big.NewInt(2_520_000),
 		HalvingEndTime:       		   big.NewInt(25228800),
 		Eccpow: 				       new(EccpowConfig),
 	}
@@ -642,12 +642,12 @@ func (c *ChainConfig) String() string {
 	}
 	if c.SeoulBlock != nil {
 		banner += fmt.Sprintf(" - Seoul:                       %-8v\n", c.SeoulBlock)
-	}
+	}*/
 	if c.AnnapurnaBlock != nil {
 		banner += fmt.Sprintf(" - Annapurna:                       %-8v\n", c.AnnapurnaBlock)
 	}
 	banner += "\n"
-    */
+    
 	// Add a special section for the merge as it's non-obvious
 	/*if c.TerminalTotalDifficulty == nil {
 		banner += "The Merge is not yet available for this network!\n"
