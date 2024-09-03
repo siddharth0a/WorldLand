@@ -139,7 +139,7 @@ var V5Bootnodes = []string{
 	"enr:-Ku4QEWzdnVtXc2Q0ZVigfCGggOVB2Vc1ZCPEc6j21NIFLODSJbvNaef1g4PxhPwl_3kax86YPheFUSLXPRs98vvYsoBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpC1MD8qAAAAAP__________gmlkgnY0gmlwhDZBrP2Jc2VjcDI1NmsxoQM6jr8Rb1ktLEsVcKAPa08wCsKUmvoQ8khiOl_SLozf9IN1ZHCCIyg",
 }
 
-const dnsPrefix = "enrtree://H7BU5TOWTC3EEYMIZKRIGM55TI l=FDXN3SN67NA5DKA4J2GOK7BVQI@"
+const dnsPrefix = "enrtree://ANK3KX6JR5EO3TMXGA2E727RUFIT5XW2XMYG4QE2JKDKSQLMXQ2FY@"
 
 // KnownDNSNetwork returns the address of a public DNS-based node list for the given
 // genesis hash and protocol. See https://github.com/ethereum/discv4-dns-lists for more
