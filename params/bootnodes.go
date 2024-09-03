@@ -73,6 +73,8 @@ var RinkebyBootnodes = []string{
 // Seoul network.
 var SeoulBootnodes = []string{
 	"enode://551bb6345ee3ffac9ea202f01043de80d1481bc56e717ce521452f98b26d6aa00a817518c33ceea8b0b07deef9752acae4fcd284599cfbba73d80e94ba8d0278@3.39.197.118:30303",
+	"enode://a8ddef19f8acd62e22e26f2a0b79afa8704a750fd415bfc0b5352a173ef392a9b043983296ee57862fe5091822584484b7ce2e8d7179280297a9d3e2236665e1@34.47.103.170:30303",
+	"enode://29edb4c62ce2d3f9f6adf403835a64311e1d28b355e10166c95677acb685a2a1673abc798dc0a3ac3d93f506c29810be706b33a7969a69f59e7f0c81144f7d42@34.22.66.127:30303",
 	"enode://89d5457f55c596253c8c5679ba3fa8b15109073cf9b25de0fb5630a1c8eaee8b3fecf0adfc79ba0f7cb8dd9c59706d33cc7688598e9c324b163b8494b781506d@18.141.201.245:30303",
 	"enode://4f83cbe244e3af619f1001e9190f45d7c251f5811a18ce6fd66be9dd5d6213e5977b7d69497b6fdef0181c87a6830198faef238d3510ce5187d6bd4bdaa8261a@13.200.114.1:30303",
 	"enode://21da5ff755a2413870ae4f81cc50fbc7d7dbaefe1d7ca76f8e365f3f214bfad02cd51d77e21759956ea8ea55156ee92ce60224b0fc763fa0412e68adc2e6dd49@13.209.255.10:30303",
@@ -85,8 +87,6 @@ var SeoulBootnodes = []string{
 	"enode://07db52ba93f85e206970e6bfbf95f978ffa809e11628e54e089c7cb7ef0176aa158fc667ffa249178ecea7a2a4b6847a0db88a551767ee54797f7e1de154b5b6@13.230.9.69:30303",
 	"enode://a7fb5f59434236d7aec76f523de7ea2df052df6188e3cb3370ae31c327380192ac9c8ab71be3f3eb14421763ea2b482ed26b25f6a6a65a9eca5505fbf3c0a96d@15.152.158.4:30303",
 	"enode://af22dfebbda543986947bf863c4cc994a15387eae27566e6a95119145bc9bf10a6180f482edf4177607093c031543861f69d5be9d8564688787a3c2a93826a45@15.152.150.248:30303",
-	"enode://a8ddef19f8acd62e22e26f2a0b79afa8704a750fd415bfc0b5352a173ef392a9b043983296ee57862fe5091822584484b7ce2e8d7179280297a9d3e2236665e1@34.47.103.170:30303",
-	"enode://29edb4c62ce2d3f9f6adf403835a64311e1d28b355e10166c95677acb685a2a1673abc798dc0a3ac3d93f506c29810be706b33a7969a69f59e7f0c81144f7d42@34.22.66.127:30303",
 }
 
 // Gwangju Bootnodes are the enode URLs of the P2P bootstrap nodes running on the
@@ -139,7 +139,7 @@ var V5Bootnodes = []string{
 	"enr:-Ku4QEWzdnVtXc2Q0ZVigfCGggOVB2Vc1ZCPEc6j21NIFLODSJbvNaef1g4PxhPwl_3kax86YPheFUSLXPRs98vvYsoBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpC1MD8qAAAAAP__________gmlkgnY0gmlwhDZBrP2Jc2VjcDI1NmsxoQM6jr8Rb1ktLEsVcKAPa08wCsKUmvoQ8khiOl_SLozf9IN1ZHCCIyg",
 }
 
-const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUDPE@"
+const dnsPrefix = "enrtree://ANK3KX6JR5EO3TMXGA2E727RUFIT5XW2XMYG4QE2JKDKSQLMXQ2FY@"
 
 // KnownDNSNetwork returns the address of a public DNS-based node list for the given
 // genesis hash and protocol. See https://github.com/ethereum/discv4-dns-lists for more
@@ -147,22 +147,12 @@ const dnsPrefix = "enrtree://AKA3AM6LPBYEUDMVNU3BSVQJ5AD45Y7YPOHJLEF6W26QOE4VTUD
 func KnownDNSNetwork(genesis common.Hash, protocol string) string {
 	var net string
 	switch genesis {
-	case MainnetGenesisHash:
-		net = "mainnet"
-	case RopstenGenesisHash:
-		net = "ropsten"
-	case RinkebyGenesisHash:
-		net = "rinkeby"
-	case GoerliGenesisHash:
-		net = "goerli"
-	case SepoliaGenesisHash:
-		net = "sepolia"
 	case GwangjuGenesisHash:
 		net = "gwangju"
 	case SeoulGenesisHash:
 		net = "seoul"
 	default:
-		return ""
+		return "seoul"
 	}
-	return dnsPrefix + protocol + "." + net + ".ethdisco.net"
+	return dnsPrefix + net + ".node.worldland.foundation"
 }
